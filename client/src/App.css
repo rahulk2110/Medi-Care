@@ -1,0 +1,277 @@
+body::-webkit-scrollbar {
+	width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #90caf9;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #e3f2fd;
+	border-radius: 6px;
+}
+
+a {
+	color: black !important;
+}
+
+.brand-logo,
+h2 {
+	font-family: 'Goldman', cursive;
+}
+
+.home {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.imagehome {
+	margin-right: 100px;
+}
+
+.searchhome {
+	width: 400px;
+	height: 100px;
+	margin-left: 160px;
+	margin-top: 180px;
+}
+
+.mycard {
+	margin-top: 30px;
+}
+.auth-card {
+	padding: 20px;
+	text-align: center;
+	max-width: 400px;
+	margin: 10px auto;
+}
+
+.input-field input[type='text']:focus {
+	border-bottom: 1px solid rgb(8, 93, 252) !important;
+	box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+.input-field input[type='password']:focus {
+	border-bottom: 1px solid rgb(8, 93, 252) !important;
+	box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item {
+	width: 30%;
+}
+
+.home-card {
+	max-width: 500px;
+	height: max-content;
+	margin: 26px auto;
+}
+.collection-item {
+	width: 100%;
+}
+
+#toast-container {
+	top: 30px !important;
+	right: 20px !important;
+	left: auto !important;
+}
+
+.material-icons:hover {
+	cursor: pointer;
+}
+
+.dlistcard {
+	width: 80%;
+	height: 300px;
+	margin: 20px auto 10px auto;
+	padding: 5px 30px 0px 30px;
+	background-image: linear-gradient(to top, #f0baa3 0%, #a4d9f1 100%);
+	transition: all 250ms;
+}
+
+.dlistcard:hover,
+.appointmentcard:hover,
+.appointmentcardDoc:hover,
+.dprofilecard:hover {
+	width: 81%;
+	background-image: linear-gradient(to top, #baecbf 0%, #73d3ee 100%);
+}
+
+.dprofilecard {
+	width: 80%;
+	height: 380px;
+	margin: 20px auto 10px auto;
+	padding: 5px 30px 0px 30px;
+	background-image: linear-gradient(to top, #f0baa3 0%, #a4d9f1 100%);
+	transition: all 250ms;
+}
+
+.position {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.profileImg {
+	text-align: center;
+	margin: 20px 400px;
+}
+
+.profileText {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 30px auto 0 auto;
+}
+
+.item {
+	width: 30%;
+	height: 200px;
+	margin: 20px auto 30px auto;
+}
+
+.appointmentcard {
+	width: 80%;
+	height: 250px;
+	margin: 20px auto 10px auto;
+	padding: 5px 30px 0px 30px;
+	background-image: linear-gradient(to top, #f0baa3 0%, #a4d9f1 100%);
+	transition: all 250ms;
+}
+.appointmentcardDoc {
+	width: 80%;
+	height: 310px;
+	margin: 20px auto 10px auto;
+	padding: 5px 30px 0px 30px;
+	background-image: linear-gradient(to top, #f0baa3 0%, #a4d9f1 100%);
+	transition: all 250ms;
+}
+
+.gallery12 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item12 {
+	width: 30%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.item11 {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #e07a52;
+}
+
+.profileImg {
+	width: 180px;
+	height: 180px;
+	border-radius: 10px;
+	margin: 40px auto;
+}
+
+.appointbutton {
+	display: flex;
+	flex-direction: row;
+}
+
+.downloadpres {
+	margin-left: 30px;
+}
+
+.docname {
+	color: #5e35b1;
+}
+
+.uploadpres {
+	margin-top: 17px;
+	height: 45px;
+	margin-left: 6px;
+}
+
+.docappoin {
+	display: flex;
+}
+
+@media screen and (max-width: 540px) {
+	.searchhome {
+		margin: 170px auto;
+		width: 80%;
+	}
+	.mycard {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.profileImg {
+		margin: 40px auto;
+	}
+	.appointmentcard {
+		height: 280px;
+	}
+	.appointmentcardDoc {
+		height: 390px;
+	}
+	.uploadpres {
+		width: 90%;
+		margin: 0px 0px 0px 9px;
+	}
+	.selectdoc {
+		display: none;
+	}
+	.docappoin {
+		display: flex;
+		flex-direction: column;
+	}
+	.bookagain {
+		width: 90%;
+		margin: 2px 0px 6px 9px;
+	}
+	.downloadpres {
+		width: 90%;
+		margin: 2px 0px 6px 9px;
+	}
+	.appointbutton {
+		display: flex;
+		flex-direction: column;
+	}
+	.docname {
+		display: none;
+	}
+	.ratings {
+		display: none;
+	}
+	.dprofilecard {
+		height: 430px;
+	}
+	.gallery12 {
+		display: flex;
+		flex-direction: column;
+	}
+	.item12 {
+		width: 90%;
+		margin: 20px auto 30px auto;
+	}
+	.item11 {
+		width: 100%;
+		height: 100%;
+		border: 2px solid #e07a52;
+	}
+}
+
+@media screen and (max-width: 981px) {
+	.sidebarelement {
+		margin-top: 50px;
+	}
+}
